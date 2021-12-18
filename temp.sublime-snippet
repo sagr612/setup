@@ -1,0 +1,94 @@
+<snippet>
+  <content><![CDATA[
+#include<bits/stdc++.h>
+#define ll long long
+#define vll vector<ll>
+#define vvi vector<vector<int>>
+#define dqi deque<int>
+#define vllp vector<pair<ll,ll>>
+#define vi vector<int>
+#define all(x) x.begin(),x.end()
+using namespace std;
+set<int> vec_to_set(vi v) {
+    set<int>s;
+    for (auto &i : v) { s.insert(i);  }
+    return s;
+}
+ll sum(vll arr) {
+    ll res = 0;
+    for (auto&i : arr) { res += i; }
+    return res;
+}
+bool isprime(int n) {
+    if (n == 1) { return false; }
+    for (int i = 2; i <= sqrt(n); i++) { // property of composite numbers
+        if (n % i == 0) { return false; }
+    }
+    return true;
+}
+vll primeFactors(ll n) {
+    vll a;
+    if (n == 0) { return a; }
+    while (n % 2 == 0) {
+        a.push_back(2);
+        n = n / 2;
+    }
+    for (int i = 3; i <= sqrt(n); i = i + 2) {
+        while (n % i == 0) {
+            a.push_back(i);
+            n = n / i;
+        }
+    }
+    a.push_back(n);
+    return a;
+}
+void print(dqi g) {for (auto&it : g)cout << it << " "; }
+void print(set<int>s) {for (auto&i : s)cout << i << " "; }
+void print(vvi v) {
+    for (int i = 0; i < v.size(); i++) {
+        for (int j = 0; j < v[i].size(); j++)cout << v[i][j] << " ";
+        cout << "\n";
+    }
+}
+void print(vllp v) {for (auto&i : v)cout << i.first << " " << i.second << "\n"; }
+void print(vll v) {for (auto &i : v)cout << i << " "; }
+void print(map<int, int>s) {for (auto&i : s)cout << i.first << " " << i.second << "\n"; }
+vll getfactors(ll n) {
+    vll res;
+    for (int i = 1; i <= sqrt(n); i++) {
+        if (n % i == 0) {
+            res.push_back(i);
+            if (n / i != i) { res.push_back(n / i); }
+        }
+    }
+    return res;
+}
+void test_case() {
+
+
+
+}
+
+int main() {
+#ifndef ONLINE_JUDGE
+    freopen("in.txt", "r", stdin);
+    freopen("out.txt", "w", stdout);
+#endif
+    ios_base::sync_with_stdio(false); 
+    cin.tie(NULL);
+    cout.tie(NULL);
+    ll t;
+    cin >> t;
+    while (t--) { test_case(); }
+#ifndef ONLINE_JUDGE
+    cout << "\nTime taken : " << (float)clock() / CLOCKS_PER_SEC << "secs" << "\n";
+#endif
+    return 0;
+}
+
+]]></content>
+  <tabTrigger>mcpp</tabTrigger>
+  <description>temp</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet>
