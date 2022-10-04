@@ -1,0 +1,32 @@
+{
+    "workbench.startupEditor": "none",
+    // "editor.fontFamily": "'CodeNewRoman Nerd Font Mono'",
+    // "editor.fontFamily": "'Ubuntu Mono'",
+    "editor.fontFamily": "'JetBrains Mono NL SemiBold'",
+    // "editor.fontFamily": "'Monaco'",
+    // "editor.fontFamily": "'CaskayidaCove Nerd Font Mono Book'",
+    // "editor.fontWeight": "bold",
+    // "editor.fontFamily": "'Source Code Pro SemiBold'",
+// 
+    // "editor.fontFamily": "'Hack'",
+    // "editor.fontFamily": "'Menlo'",
+
+
+    // "editor.fontFamily": "'Fira Code Medium'",
+    // "editor.fontFamily": "'Fira Code'",
+
+// "editor.fontLigatures": true,
+// "editor.fontWeight": "545",
+    // "window.titleBarStyle": "custom",
+    // "editor.fontFamily": "'Iosevka Term'",
+    "editor.fontLigatures": true,
+    "terminal.integrated.enablePersistentSessions": false,
+    "files.autoSave": "onFocusChange",
+    // "editor.fontSize": 15,
+    // "editor.fontWeight": "bold" ,
+    // "terminal.integrated.fontSize": 13,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.wordWrap": "on",
+    // "terminal.integrated.fontFamily": "monospace"
+
+}
