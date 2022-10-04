@@ -1,0 +1,38 @@
+{
+	"color_scheme": "Monokai.sublime-color-scheme",
+	"theme": "Adaptive.sublime-theme",
+	"save_on_focus_lost": true,
+	"font_face": "JetBrains Mono NL SemiBold",
+	// "font_face": "JetBrains Mono NL",
+
+	// "font_face": "JetBrains Mono NL Bold",
+	// "font_face": "JetBrains Mono",
+
+	// "font_face": "Fira Code Medium",
+	// "font_face": "Source Code Pro Semibold",
+	// "font_face": "Source Code Pro Semibold",
+	// "font_face": "DejaVu Sans Mono",
+
+	// "font_face": "Ubuntu Mono Regular",
+
+	// "font_face": "Cascadia Code",
+
+	// "font_face": "Monaco",
+
+
+
+
+// "font_options":
+// [
+// 	// "italic", // always italic
+//         "bold", // always bold
+// 	],
+
+
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	/*"font_size": 11,*/
+	/*"font_size": 11,*/
+}
